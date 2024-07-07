@@ -1,0 +1,139 @@
+/* Dashboard.css */
+body{
+  background-image: url(background.jpg);
+}
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f9f4;
+  color: #1b5e20;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.btn.btn-logout {
+  background-color: #1b5e20;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn.btn-logout:hover {
+  background-color: #145a1e;
+}
+
+.dashboard-buttons {
+  margin-bottom: 20px;
+}
+
+.btn.btn-primary {
+  background-color: #2e7d32;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn.btn-primary:hover {
+  background-color: #1b5e20;
+}
+
+.group {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #d1f0cc; /* Light green background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
+}
+
+.group:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.group-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.group-name {
+  color: #3d8e60;
+}
+
+.delete-group-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.delete-group-btn:hover {
+  opacity: 0.8;
+}
+
+.delete-group-btn svg {
+  font-size: 1.2rem;
+  color: #1b5e20; /* Green color */
+}
+
+.group-members {
+  margin-bottom: 10px;
+}
+
+.group-payments {
+  margin-bottom: 10px;
+}
+
+.payment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.payment-info {
+  display: flex;
+  align-items: center;
+}
+
+.delete-payment-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  position: flex-end;
+}
+
+.delete-payment-btn:hover {
+  opacity: 0.8;
+}
+
+.delete-payment-btn svg {
+  font-size: 1.2rem;
+  color: #1b5e20; /* Green color */
+}
