@@ -1,4 +1,4 @@
-# SpliPal Web App
+# SplitPal Web App
 
 Website Link :- https://moneysplit0206.web.app
 
